@@ -1,0 +1,22 @@
+{
+  "name": "notes-spa",
+  "version": "1.0.0",
+  "description": "SPA (NodeJS, Express, MongoDB, React)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rokenor/SPA.git"
+  },
+  "author": "a.kovrizhnykh@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rokenor/SPA/issues"
+  },
+  "homepage": "https://github.com/Rokenor/SPA#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
