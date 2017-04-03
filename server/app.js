@@ -11,7 +11,7 @@ db.setUpConnection();
 const app = express();
 
 app.use(bodyParser.json());
-app.use(cors({ origin: '*' }));
+app.use(cors({origin: '*'}));
 
 app.get('/notes', (req, res) => {
     db.listNotes().then((data) => res.send(data));
